@@ -16,7 +16,7 @@ int main() {
 
     while(true)
     {
-        std::cout<<"Turn: "<<luciano<<std::endl;
+        std::cout<<"Turn: "<<second_player_name<<std::endl;
         do
         {
          coord = battagliaNavale.player_shot(second_player_name);  // player 2 shoot
@@ -30,7 +30,7 @@ int main() {
          if(has_hit) std::cout<<"\nit is your turn again"<<std::endl;
         }while(has_hit);
 
-        std::cout<<"Turn: "<<niccolo<<std::endl;
+        std::cout<<"Turn: "<<first_player_name<<std::endl;
         do
         {
             coord = battagliaNavale.player_shot(first_player_name);  // player 2 shoot

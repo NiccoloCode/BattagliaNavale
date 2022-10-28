@@ -1,4 +1,4 @@
-# Install script for directory: /Users/niccoloferesini/Desktop/APC_Clion/BattagliaNavale
+# Install script for directory: /Users/niccoloferesini/Desktop/GitHub/BattagliaNavale
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/niccoloferesini/Desktop/APC_Clion/BattagliaNavale/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/niccoloferesini/Desktop/GitHub/BattagliaNavale/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

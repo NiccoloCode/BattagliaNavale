@@ -1,12 +1,10 @@
 # ninja log v5
-1079	1167	1666563352684316205	BattagliaNavale	89db80f609ee7e9a
-4	1078	1666563352592887401	CMakeFiles/BattagliaNavale.dir/game.cpp.o	64186674de6068c8
-7	1352	1666563307414546779	CMakeFiles/BattagliaNavale.dir/ship.cpp.o	64eca2c15d251b92
-9	2213	1666562880939210687	CMakeFiles/BattagliaNavale.dir/main.cpp.o	f3cf0d817e1a5785
-0	241	1666608426295381096	build.ninja	c0ec2104ff878754
-6	11690	1666679663984916263	CMakeFiles/BattagliaNavale.dir/main.cpp.o	f3cf0d817e1a5785
-10	12343	1666679664659348346	CMakeFiles/BattagliaNavale.dir/game.cpp.o	64186674de6068c8
-12344	13798	1666679666122432447	BattagliaNavale	89db80f609ee7e9a
-7	1734	1666679695513492785	CMakeFiles/BattagliaNavale.dir/main.cpp.o	f3cf0d817e1a5785
-9	1924	1666679695706439836	CMakeFiles/BattagliaNavale.dir/game.cpp.o	64186674de6068c8
 1924	2050	1666679695837471624	BattagliaNavale	89db80f609ee7e9a
+9	1924	1666679695706439836	CMakeFiles/BattagliaNavale.dir/game.cpp.o	64186674de6068c8
+7	1352	1666563307414546779	CMakeFiles/BattagliaNavale.dir/ship.cpp.o	64eca2c15d251b92
+7	1734	1666679695513492785	CMakeFiles/BattagliaNavale.dir/main.cpp.o	f3cf0d817e1a5785
+0	241	1666979614776256171	build.ninja	c0ec2104ff878754
+14	3965	1666979624886575731	CMakeFiles/BattagliaNavale.dir/ship.cpp.o	5f28f1ad64b178f9
+16	3992	1666979624916755813	CMakeFiles/BattagliaNavale.dir/game.cpp.o	ab8d79155799a87
+7	2862	1666979718104283309	CMakeFiles/BattagliaNavale.dir/main.cpp.o	78915dcbb4403e97
+2862	3035	1666979718283787308	BattagliaNavale	89db80f609ee7e9a

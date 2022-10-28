@@ -5,7 +5,7 @@
 #ifndef BATTAGLIANAVALE_GAME_H
 #define BATTAGLIANAVALE_GAME_H
 #include "ship.h"
-const unsigned NUMBERSHIP = 1;
+const unsigned NUMBERSHIP = 4;
 
 struct initialization
 {
