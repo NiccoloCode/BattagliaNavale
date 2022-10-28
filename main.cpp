@@ -6,7 +6,6 @@
 using std::string;
 
 int main() {
-    int x;
     game battagliaNavale;
     bool has_hit;
     const string first_player_name= "niccolo";
