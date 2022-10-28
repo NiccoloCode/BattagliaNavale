@@ -8,8 +8,8 @@ using std::string;
 int main() {
     game battagliaNavale;
     bool has_hit;
-    const string niccolo= "niccolo";
-    const string luciano = "luciano";
+    const string first_player_name= "niccolo";
+    const string second_player_name= "luciano";
     pair<unsigned ,unsigned > coord;
 
     auto allShip = battagliaNavale.start_game();
@@ -19,12 +19,12 @@ int main() {
         std::cout<<"Turn: "<<luciano<<std::endl;
         do
         {
-         coord = battagliaNavale.player_shot(luciano);  // player 2 shoot
+         coord = battagliaNavale.player_shot(second_player_name);  // player 2 shoot
          has_hit = battagliaNavale.has_hit(coord,allShip[0]);
          if(battagliaNavale.is_dead(allShip[0]))
          {
              battagliaNavale.set_end_game(true);
-             battagliaNavale.end_game(luciano);
+             battagliaNavale.end_game(second_player_name);
              exit(0);
          }
          if(has_hit) std::cout<<"\nit is your turn again"<<std::endl;
@@ -33,12 +33,12 @@ int main() {
         std::cout<<"Turn: "<<niccolo<<std::endl;
         do
         {
-            coord = battagliaNavale.player_shot(niccolo);  // player 2 shoot
+            coord = battagliaNavale.player_shot(first_player_name);  // player 2 shoot
             has_hit = battagliaNavale.has_hit(coord,allShip[1]);
             if(battagliaNavale.is_dead(allShip[1]))
             {
                 battagliaNavale.set_end_game(true);
-                battagliaNavale.end_game(niccolo);
+                battagliaNavale.end_game(first_player_name);
                 exit(0);
             }
             if(has_hit) std::cout<<"\nit is your turn again"<<std::endl;
