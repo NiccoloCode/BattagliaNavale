@@ -31,7 +31,7 @@ public:
      * @param nave2
      * @return
      */
-    bool is_overlapping(Ship*& nave2)  const;
+    bool is_overlapping(const Ship& nave2)  const;
 
     /**
      * check if the ship is hit and in this case update che boolean vector

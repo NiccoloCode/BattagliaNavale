@@ -71,20 +71,16 @@ vector<vector<Ship>> game::start_game() const
             has_valid_coordinate = Ship::has_valid_coordinate(shipValue.coord,shipValue.length,shipValue.orientation);
             if(!has_valid_coordinate) continue;
 
-            Ship* pShip = new Ship(shipValue.coord,shipValue.orientation,shipValue.length);
+            Ship ship(shipValue.coord,shipValue.orientation,shipValue.length);
             for(const auto& playerShip:allShip[i])
             {
-                playerShip.is_overlapping(pShip);
-                if(pShip==nullptr)
+                if(playerShip.is_overlapping(ship))
                 {
                     std::cout<<"Build Failed due to overlapping,please try again";
                     continue;
                 }
             }
-            if(pShip==nullptr) continue;
-            allShip[i].push_back(*pShip);
-            delete pShip;
-            pShip= nullptr;
+            allShip[i].push_back(ship);
             ++j;
         }
     }

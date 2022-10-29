@@ -77,16 +77,14 @@ bool operator==(const pair<unsigned,unsigned>& coord1,const pair<unsigned,unsign
     return false;
 }
 
-bool Ship::is_overlapping(Ship*& nave2)  const
+bool Ship::is_overlapping(const Ship& nave2)  const
 {
     for(const auto& coordNave1 :coordinates)
     {
-        for(const auto& coordNave2 :nave2->coordinates)
+        for(const auto& coordNave2 :nave2.coordinates)
         {
             if(coordNave1 == coordNave2)
             {
-                delete nave2;
-                nave2 = nullptr;
                 return true;
             }
         }
