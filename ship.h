@@ -31,6 +31,7 @@ public:
      * @param nave2
      * @return
      */
+<<<<<<< HEAD
     bool is_overlapping(const Ship& nave2)  const;
 
     /**
